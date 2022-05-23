@@ -1,5 +1,5 @@
 <p align = "center">
-  <img src= "https://imgur.com/SHk7OpG" width = 100%>
+  <img src = "https://imgur.com/SHk7OpG">
 </p>
 
 # Análise de Crédito Bancário - Bank Credit Analytics
