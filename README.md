@@ -4,7 +4,7 @@
 
 # Análise de Crédito Bancário - Bank Credit Analytics
 
-[Conjunto de Dados](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
+Conjunto de dados utilizado está disponível neste [link](https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients)
 
 ## Descrição:
 
