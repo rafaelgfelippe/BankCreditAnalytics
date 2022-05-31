@@ -92,7 +92,27 @@ Após a pré-seleção, foi treinado dois modelos com a RandomForest:
 
 Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido por ser mais "simples". 
 
-| Modemo1              | precision                    | recall                 | f1-score                 | 
+| Modelo 1             | precision                    | recall                 | f1-score                 | 
 |:--------------------:|:----------------------------:|:----------------------:|:------------------------:|
-| 0        	           | 0.86                         | 0.79                   | 0.83                     |
-| 1       	           | 0.45                         | 0.56                   | 0.50                     |
+| Classe 0             | 0.86                         | 0.79                   | 0.83                     |
+| Classe 1       	     | 0.45                         | 0.56                   | 0.50                     |
+
+# Programa de Aconselhamento de Clientes
+
+Após a etapa de modelagem, precisamos definir quais clientes deveriam participar do programa de aconselhamento da ProfitCard. Essa tarefa constítuiu em identificar um valor limite ideal. 
+
+![](figures/Best_Threshold.png)
+
+- A economia líquida mais alta é gerada com um valor de limite igual a 0.26. Isso significa que clientes com probabilidades de inadimplência maiores que 26% devem passar pelo programa de aconselhamento da ProfitCard.
+
+- O valor da economia líquida obtida nesse limite é de R$ 2.887.081,19.
+
+- Com o programa de aconselhamento guiado pelo nosso modelo, podemos diminuir o custo de inadimplências em 21,6%.
+
+# Conclusões Finais
+
+Os dois modelos avaliados apresentaram bons resultados, porém, o modelo 1 foi o escolhido por ser mais "simples". Para um primeiro ciclo, conseguimos um bom resultado, embora, o modelo tenha maior dificuldade em prever amostras da classe positiva com um recall de 56%, ainda assim, conseguimos uma acurácia total de 74%.
+
+Após a etapa de modelagem, tivemos que identificar qual o valor limite ideal para considerar se um cliente deveria ou não receber o aconselhamento. Com base em nossa análise o valor limite ideal foi de 0.26, ou seja, clientes que possuem 26% de chances de inadimplir devem participar do programa. Considerando os custos por cada sessão, com nosso modelo, conseguiríamos uma economia líquida de R$ 2.887.081,19, o que representa uma diminuição de 21,6% dos custos supondo a ausência do programa de aconselhamento.
+
+Por fim, para um segundo ciclo do projeto, poderíamos utilizar abordagens diferentes em ralação ao tratamento de valores ausentes, padronização dos dados, seleção das melhores variáveis, e a otimização de outros algoritmos de classificação.
