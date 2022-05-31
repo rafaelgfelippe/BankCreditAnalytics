@@ -90,7 +90,7 @@ Após decidirmos qual algoritmo seria utilizado, dois modelos foram criados:
 
 ![](figures/ROC_AUC.png)
 
-Os resultados foram bastante similiares, a otimização desses hiperparâmetros não impactaram as métricas do modelo, sendo assim, o Modelo 1 foi o escolhido para a entrega final por se tratar de uma versão mais "simplificada". Abaixo podemos visualizar as métricas do modelo.
+Os resultados foram bastante similares, a otimização desses hiperparâmetros não impactaram as métricas do modelo, sendo assim, o Modelo 1 foi o escolhido para a entrega final por se tratar de uma versão mais "simplificada". Abaixo podemos visualizar as métricas do modelo.
 
 | Modelo 1             | precision                    | recall                 | f1-score                 | 
 |:--------------------:|:----------------------------:|:----------------------:|:------------------------:|
