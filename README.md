@@ -116,3 +116,9 @@ Os dois modelos avaliados apresentaram bons resultados, porém, o modelo 1 foi o
 Após a etapa de modelagem, tivemos que identificar qual o valor limite ideal para considerar se um cliente deveria ou não receber o aconselhamento. Com base em nossa análise o valor limite ideal foi de 0.26, ou seja, clientes que possuem 26% de chances de inadimplir devem participar do programa. Considerando os custos por cada sessão, com nosso modelo, conseguiríamos uma economia líquida de R$ 2.887.081,19, o que representa uma diminuição de 21,6% dos custos supondo a ausência do programa de aconselhamento.
 
 Por fim, para um segundo ciclo do projeto, poderíamos utilizar abordagens diferentes em ralação ao tratamento de valores ausentes, padronização dos dados, seleção das melhores variáveis, e a otimização de outros algoritmos de classificação.
+
+# Autor
+
+Rafael Felippe  
+
+[<img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>](https://www.linkedin.com/in/rafaelfelippe/)
