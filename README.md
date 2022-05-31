@@ -33,6 +33,6 @@ Além disso, também foi disponibilizado o dicionário de dados:
 | MARRIAGE                         | Estado civil do cliente                                      | 1 = casado, 2 = solteiro, 3 = outros |
 | AGE                              | Idade do cliente                                             |                -              |
 | PAY[1 a 6]                       | Status do pagamento mensal                                   | -2 = crédito não utilizado, -1 = pagamento em dia, 0 = pagamento mínimo realizado, 1 a 8 = quantidade de meses de atraso no pagamento | 
-| BILL_AMT[1 a 6]                  | Indica se a unidade trabalha durante os feriados |
-| PAY_AMT[1 a 6]                   | Indica se a data do registro era epóca de férias escolares  |
-| default payment next month       | Nível de sortimento de produtos da unidade (a, b, c) |
+| BILL_AMT[1 a 6]                  | Valor da fatura mensal                                       |                -              |
+| PAY_AMT[1 a 6]                   | Valor do pagamento mensal realizado                          |                -              |
+| default payment next month       | Variável target                                              | 0 = não inadimplente, 1 = inadimplente |
