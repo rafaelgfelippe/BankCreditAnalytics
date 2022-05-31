@@ -60,5 +60,17 @@ Como estratégia para a solução do projeto, definimos as seguintes etapas:
 # TOP 3 Insights 
 
 **P1. O limite de crédito fornecido impacta na taxa de inadimplência?**
-- Sim, podemos ver que a medida que o limite de crédito aumenta, a taxa de inadimplência diminui;
+- Sim, podemos ver que a medida que o limite de crédito aumenta, a taxa de inadimplência diminui.
 - A categoria 1, possui uma taxa de inadimplência quase 3 vezes maior que a categoria 4.
+![](figures/P1.png)
+
+**P2. Clientes inadimplentes tendem a inadimplir novamente?**
+- Sim, podemos ver que clientes inadimplentes (valores a partir de 1) apresentam maiores probabilidades de inadimplir novamente.
+- De acordo com a análise, pelo menos 30% das contas que estavam inadimplentes no último mês (valor 1), estarão inadimplentes novamente.
+- Por outro lado, as contas em boa situação (-2, -1, e 0) estão bem abaixo da taxa geral de inadimplência.
+![](figures/P2.png)
+
+**P3. Há diferenças significativas na taxa de inadimpência baseado no grau de instrução educacional?**
+- Não, embora haja uma diferença entre as classes, ela não é significativa.
+- A classe 4 (Outros) é a que demonstra a menor taxa de inadimplência.
+![](figures/P3.png)
