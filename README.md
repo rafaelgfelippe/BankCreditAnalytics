@@ -24,7 +24,7 @@ Em relação ao conjunto de dados, as seguintes informações foram disponibiliz
 
 Além disso, também foi disponibilizado o dicionário de dados:
 
-**OBS:** os significados dos valores de cada variável estão disponíveis no notebook.
+**OBS:** os significados dos valores presentes em cada variável estão disponíveis no notebook.
 
 | Variáveis                        | Descrição                                       | 
 | -------------------------------- | ------------------------------------------------| 
@@ -38,3 +38,21 @@ Além disso, também foi disponibilizado o dicionário de dados:
 | BILL_AMT[1 a 6]                  | Valor da fatura mensal                          |
 | PAY_AMT[1 a 6]                   | Valor do pagamento mensal realizado             |
 | default payment next month       | Variável target                                 |
+
+# Estratégia da Solução
+
+Como estratégia para a solução do projeto, definimos as seguintes etapas:
+
+- **1. Entendimento do Negócio:** nesta etapa inicial, o principal objetivo é compreender o problema de negócio e as necessidades do cliente.
+
+- **2. Entendimento dos Dados:** aqui, iremos realizar um tratamento inicial nos dados a fim de detectar possíveis inconsistências, além disso, iremos explorar as variáveis com o objetivo de entender melhor o que elas representam.
+
+- **3. Engenharia de Atributos:** baseado nos dados existentes, criaremos novas variáveis a fim de resumir as informações e facilitar o aprendizado dos modelos. Além disso, também selecionaremos o conjunto das melhores variáveis.
+
+- **4. Pré-Processamento dos Dados:** nesta etapa, nosso objetivo é preparar os dados para a aplicação do modelo de machine learning, iremos realizar a divisão dos dados em treino e teste, e aplicar técnicas como balanceamento de classes e padronização dos dados.
+
+- **5. Modelagem Preditiva:** iremos testar diferentes algoritmos e escolher o de melhor performance, além de realizar a otimização de seus hiperparâmetros.
+
+- **6. Programa de Aconselhamento de Clientes:** nesta etapa, ajudaremos a ProfitCard a responder a principal pergunta de negócio, identificando os clientes que deverão participar do programa de aconselhamento.
+
+- **7. Conclusões Finais:** por fim, entregaremos o resultado final do projeto.
