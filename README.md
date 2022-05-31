@@ -1,1 +1,1 @@
-![image](figures/ProfitCard.png)
+![](figures/ProfitCard.png)
