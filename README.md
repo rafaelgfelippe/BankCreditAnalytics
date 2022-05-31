@@ -99,15 +99,11 @@ Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido po
 
 # Programa de Aconselhamento de Clientes
 
-Após a etapa de modelagem, precisamos definir quais clientes deveriam participar do programa de aconselhamento da ProfitCard. Para essa tareda, precisamos definir um valor limite ideal. 
+Após a etapa de modelagem, precisamos definir quais clientes deveriam participar do programa de aconselhamento da ProfitCard. Para essa tarefa, precisamos definir um valor limite ideal, ou seja, qual a probabilidade de inadimplência que um cliente necessita ter para participar do programa de aconselhamento.  
 
 ![](figures/Best_Threshold.png)
 
-- A economia líquida mais alta é gerada com um valor de limite igual a 0.26. Isso significa que clientes com probabilidades de inadimplência maiores que 26% devem passar pelo programa de aconselhamento da ProfitCard.
-
-- O valor da economia líquida obtida nesse limite é de R$ 2.887.081,19.
-
-- Com o programa de aconselhamento guiado pelo nosso modelo, podemos diminuir o custo de inadimplências em 21,6%.
+- O valor limite ideal é de 0.26. Isso significa que clientes com probabilidades de inadimplência maiores que 26% devem receber o aconselhamento.
 
 # Conclusões Finais
 
