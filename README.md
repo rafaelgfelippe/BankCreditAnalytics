@@ -88,9 +88,9 @@ Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido po
 
 ![](figures/ROC_AUC.png)
 
+Em relação as métricas do modelo 1, conseguimos: 
+
 | Modelo 1     | precision     | recall     | f1-score     |     
-|:------------:|:------------ :|:----------:|:------------:|
+|--------------|---------------|------------|--------------|
 | 0       	   | 0.86	         | 0.79       | 0.83         | 
 | 1      	     | 0.45          | 0.56       | 0.50         | 
-
-
