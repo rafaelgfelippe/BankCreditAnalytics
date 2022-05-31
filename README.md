@@ -74,3 +74,12 @@ Como estratégia para a solução do projeto, definimos as seguintes etapas:
 - Não, embora haja uma diferença entre as classes, ela não é significativa.
 - A classe 4 (Outros) é a que demonstra a menor taxa de inadimplência.
 ![](figures/P3.png)
+
+# Modelagem Preditiva
+
+Realizamos uma pré-seleção entre alguns algoritmos de classificação, e o Random Forest Classifier foi o escolhido para modelagem. 
+
+| LogisticRegression   | LinearDiscriminantAnalysis   | KNeighborsClassifier   | DecisionTreeClassifier   | RandomForestClassifier   |
+|:--------------------:|:----------------------------:|:----------------------:|:------------------------:|:------------------------:|
+| 0.685421	           | 0.687394	                    | 0.736187               | 0.734098                 | 0.803205                 |
+
