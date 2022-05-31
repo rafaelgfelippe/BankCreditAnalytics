@@ -84,5 +84,16 @@ Realizamos uma pré-seleção entre alguns algoritmos, e o Random Forest Classif
 | 0.685421	           | 0.687394	                    | 0.736187               | 0.734098                 | 0.803205                 |
 
 Após a pré-seleção, foi treinado dois modelos com a RandomForest, o primeiro com as configurações padrão, e o segundo utilizando a otimização dos hiperparâmetros.
-Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido para a entrega final. 
+Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido por ser mais "simples". 
 
+| Modelo 1             | precision                    | recall                 | f1-score                 | 
+|:--------------------:|:----------------------------:|:----------------------:|:------------------------:|
+| 0       	           | 0.86	                        | 0.79                   | 0.83                     | 
+| 1      	             | 0.45                         | 0.56                   | 0.50                     | 
+
+| Modelo 2             | precision                    | recall                 | f1-score                 | 
+|:--------------------:|:----------------------------:|:----------------------:|:------------------------:|
+| 0       	           | 0.86	                        | 0.80                   | 0.83                     | 
+| 1      	             | 0.45                         | 0.56                   | 0.50                     | 
+
+![](figures/ROC_AUC.png)
