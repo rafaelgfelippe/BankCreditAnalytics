@@ -88,13 +88,11 @@ Após a pré-seleção, foi treinado dois modelos com a RandomForest:
 - **Modelo 1:** treinado com as configurações padrão. 
 - **Modelo 2:** treinado utilizando a otimização dos hiperparâmetros.
 
-Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido por ser mais "simples". 
-
 ![](figures/ROC_AUC.png)
 
-Em relação as métricas do modelo 1, conseguimos: 
+Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido por ser mais "simples". 
 
-| Modelo 1         | precision     | recall     | f1-score     |     
-| Classe 0 | Classe1 |-----------|------------|--------------|
-| 0       	   | 0.86	         | 0.79       | 0.83         | 
-| 1      	     | 0.45          | 0.56       | 0.50         | 
+| Modemo1              | precision                    | recall                 | f1-score                 | 
+|:--------------------:|:----------------------------:|:----------------------:|:------------------------:|
+| 0        	           | 0.86                         | 0.79                   | 0.83                     |
+| 1       	           | 0.45                         | 0.56                   | 0.50                     |
