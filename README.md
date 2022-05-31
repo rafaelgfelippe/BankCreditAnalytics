@@ -99,7 +99,7 @@ Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido po
 
 # Programa de Aconselhamento de Clientes
 
-Após a etapa de modelagem, precisamos definir quais clientes deveriam participar do programa de aconselhamento da ProfitCard. Essa tarefa constítuiu em identificar um valor limite ideal. 
+Após a etapa de modelagem, precisamos definir quais clientes deveriam participar do programa de aconselhamento da ProfitCard. Para essa tareda, precisamos definir um valor limite ideal. 
 
 ![](figures/Best_Threshold.png)
 
