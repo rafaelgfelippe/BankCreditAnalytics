@@ -1,1 +1,0 @@
-![](figures/ProfitCard.png)
