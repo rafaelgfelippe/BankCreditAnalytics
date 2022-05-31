@@ -77,9 +77,12 @@ Como estratégia para a solução do projeto, definimos as seguintes etapas:
 
 # Modelagem Preditiva
 
-Realizamos uma pré-seleção entre alguns algoritmos de classificação, e o Random Forest Classifier foi o escolhido para modelagem. 
+Realizamos uma pré-seleção entre alguns algoritmos, e o Random Forest Classifier foi o escolhido baseado em sua maior acurácia. 
 
 | LogisticRegression   | LinearDiscriminantAnalysis   | KNeighborsClassifier   | DecisionTreeClassifier   | RandomForestClassifier   |
 |:--------------------:|:----------------------------:|:----------------------:|:------------------------:|:------------------------:|
 | 0.685421	           | 0.687394	                    | 0.736187               | 0.734098                 | 0.803205                 |
+
+Após a pré-seleção, foi treinado dois modelos com a RandomForest, o primeiro com as configurações padrão, e o segundo utilizando a otimização dos hiperparâmetros.
+Os resultados foram bastante similiares, e com isso, o modelo 1 foi escolhido para a entrega final. 
 
