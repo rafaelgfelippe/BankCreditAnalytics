@@ -23,6 +23,7 @@ Em relação ao conjunto de dados, as seguintes informações foram disponibiliz
 - Cada registro do conjunto de dados representa a conta de um cliente, sendo assim, não deve haver registros duplicados.
 
 Além disso, também foi disponibilizado o dicionário de dados:
+Obs: os significados dos valores de cada variável estão disponíveis no notebook.
 
 | Variáveis                        | Descrição                                       | 
 | -------------------------------- | ------------------------------------------------| 
