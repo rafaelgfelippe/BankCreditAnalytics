@@ -56,3 +56,9 @@ Como estratégia para a solução do projeto, definimos as seguintes etapas:
 - **6. Programa de Aconselhamento de Clientes:** nesta etapa, ajudaremos a ProfitCard a responder a principal pergunta de negócio, identificando os clientes que deverão participar do programa de aconselhamento.
 
 - **7. Conclusões Finais:** por fim, entregaremos o resultado final do projeto.
+
+# TOP 3 Insights 
+
+**P1. O limite de crédito fornecido impacta na taxa de inadimplência?**
+- Sim, podemos ver que a medida que o limite de crédito aumenta, a taxa de inadimplência diminui;
+- A categoria 1, possui uma taxa de inadimplência quase 3 vezes maior que a categoria 4.
