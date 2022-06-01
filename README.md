@@ -77,7 +77,7 @@ Como estratégia para a solução do projeto, definimos as seguintes etapas:
 
 # Modelagem Preditiva
 
-A fim de identificar quais os melhores algoritmos que poderíamos utilizar na modelagem preditiva, foi realizado uma pré-seleção, onde treinamos e avaliamos os desempenhos dos principais algoritmos de classificação. Baseado na acurácia, o RandomForestClassifier foi o escolhido. 
+A fim de identificar quais os melhores algoritmos que poderíamos utilizar na modelagem preditiva, foi realizado uma pré-seleção, onde treinamos e avaliamos os desempenhos dos principais algoritmos de classificação. Baseado na acurácia, o *RandomForestClassifier* foi o escolhido. 
 
 | LogisticRegression   | LinearDiscriminantAnalysis   | KNeighborsClassifier   | DecisionTreeClassifier   | RandomForestClassifier   |
 |:--------------------:|:----------------------------:|:----------------------:|:------------------------:|:------------------------:|
@@ -103,7 +103,7 @@ Após a etapa de modelagem, precisamos definir quais clientes deveriam participa
 
 Além disso, foi nos informado que o custo por sessão do programa é de R$1.200,00 e a taxa de sucesso esperada é de 70%. 
 
-Para calcular a possível economia que o programa de aconselhamento trouxe para a ProfitCard, precisávamos saber o valor da fatura do próximo mês, porém, como não tínhamos essa informação, utilizamos a média dos valores da fatura mais recente, ou seja, a média da variável BILL_AMT1.
+Para calcular a possível economia que o programa de aconselhamento trouxe para a ProfitCard, precisávamos saber o valor da fatura do próximo mês, porém, como não tínhamos essa informação, utilizamos a média dos valores da fatura mais recente, ou seja, a média da variável **`BILL_AMT1`**.
 
 Com base em nossas análises, o valor limite ideal foi de 0.26, conforme mostra o gráfico abaixo.
 
@@ -111,7 +111,7 @@ Com base em nossas análises, o valor limite ideal foi de 0.26, conforme mostra 
 
 # Conclusões Finais
 
-Os dois modelos avaliados apresentaram bons resultados, porém, o modelo 1 foi o escolhido por ser mais "simples". Para um primeiro ciclo, conseguimos um bom resultado, embora, o modelo tenha maior dificuldade em prever amostras da classe positiva com um recall de 56%, ainda assim, conseguimos uma acurácia total de 74%.
+Os dois modelos avaliados apresentaram bons resultados, porém, o modelo 1 foi o escolhido por ser mais "simples". Para um primeiro ciclo, conseguimos um bom resultado, embora, o modelo tenha maior dificuldade em prever amostras da classe positiva com um *recall* de 56%, ainda assim, conseguimos uma acurácia total de 74%.
 
 Após a etapa de modelagem, tivemos que identificar qual o valor limite ideal para considerar se um cliente deveria ou não receber o aconselhamento. Com base em nossa análise o valor limite ideal foi de 0.26, ou seja, clientes que possuem 26% de chances de inadimplir devem participar do programa. Considerando os custos por cada sessão, com nosso modelo, conseguiríamos uma economia líquida de **R$ 2.887.081,19**, o que representa uma diminuição de **21,6%** dos custos supondo a ausência do programa de aconselhamento.
 
