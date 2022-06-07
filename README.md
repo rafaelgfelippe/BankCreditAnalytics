@@ -62,7 +62,7 @@ Como estratégia para a solução do projeto, definimos as seguintes etapas:
 # TOP 3 Insights 
 
 **P1. O limite de crédito fornecido impacta na taxa de inadimplência?**
-- Sim, podemos ver que a medida que o limite de crédito aumenta, a taxa de inadimplência diminui.
+- Sim, podemos ver que à medida que o limite de crédito aumenta, a taxa de inadimplência diminui.
 - A categoria 1, possui uma taxa de inadimplência quase 3 vezes maior que a categoria 4.
 ![](figures/P1.png)
 
@@ -72,7 +72,7 @@ Como estratégia para a solução do projeto, definimos as seguintes etapas:
 - Por outro lado, as contas em boa situação (-2, -1, e 0) estão bem abaixo da taxa geral de inadimplência.
 ![](figures/P2.png)
 
-**P3. Há diferenças significativas na taxa de inadimpência baseado no grau de instrução educacional?**
+**P3. Há diferenças significativas na taxa de inadimplência baseado no grau de instrução educacional?**
 - Não, embora haja uma diferença entre as classes, ela não é significativa.
 - A classe 4 (Outros) é a que demonstra a menor taxa de inadimplência.
 ![](figures/P3.png)
@@ -81,7 +81,7 @@ Como estratégia para a solução do projeto, definimos as seguintes etapas:
 
 A fim de identificar quais os melhores algoritmos que poderíamos utilizar na modelagem preditiva, foi realizado uma pré-seleção, onde treinamos e avaliamos os desempenhos dos principais algoritmos de classificação. Baseado na acurácia, o *RandomForestClassifier* foi o escolhido. 
 
-| LogisticRegression   | LinearDiscriminantAnalysis   | KNeighborsClassifier   | DecisionTreeClassifier   | RandomForestClassifier   |
+| *LogisticRegression* | *LinearDiscriminantAnalysis* | *KNeighborsClassifier* | *DecisionTreeClassifier* | *RandomForestClassifier* |
 |:--------------------:|:----------------------------:|:----------------------:|:------------------------:|:------------------------:|
 | 0.685421	           | 0.687394	                    | 0.736187               | 0.734098                 | 0.803205                 |
 
@@ -94,7 +94,7 @@ Após decidirmos qual algoritmo seria utilizado, dois modelos foram criados:
 
 Os resultados foram bastante similares, a otimização desses hiperparâmetros não impactaram as métricas do modelo, sendo assim, o Modelo 1 foi o escolhido para a entrega final por se tratar de uma versão mais "simplificada". Abaixo podemos visualizar as métricas do modelo.
 
-| Modelo 1             | precision                    | recall                 | f1-score                 | 
+| Modelo 1             | *Precision*                  | *Recall*               | *F1-score*               | 
 |:--------------------:|:----------------------------:|:----------------------:|:------------------------:|
 | Classe 0             | 0.86                         | 0.79                   | 0.83                     |
 | Classe 1       	     | 0.45                         | 0.56                   | 0.50                     |
